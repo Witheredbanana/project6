@@ -1,5 +1,5 @@
 let order = {
-    soup: null,
+    soups: null,
     main_dishes: null,
     salads: null,
     drinks: null,
@@ -62,7 +62,7 @@ function updateOrderDisplay() {
 
 function getCategoryTitle(category) {
     switch (category) {
-        case "soup":
+        case "soups":
             return "Суп";
         case "main_dishes":
             return "Главное блюдо";
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.querySelector('button[type="reset"]').addEventListener("click", () => {
     order = {
-        soup: null,
+        soups: null,
         main_dishes: null,
         salads: null,
         drinks: null,
@@ -141,7 +141,7 @@ document.querySelector('button[type="reset"]').addEventListener("click", () => {
 
 // New functions for validation and notification
 function validateOrder() {
-    const hasSoup = !!order.soup;
+    const hasSoup = !!order.soups;
     const hasMainDish = !!order.main_dishes;
     const hasSalad = !!order.salads;
     const hasDrink = !!order.drinks;
