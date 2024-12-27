@@ -6,7 +6,7 @@ const meals = [
         price: 200,
         category: 'soups',
         count: '350 г',
-        image: 'assets/images/menu/gazpacho_soup.jpg',
+        image: 'gazpacho_soup.jpg',
         kind: 'veg'
     },
     {
@@ -15,7 +15,7 @@ const meals = [
         price: 190,
         category: 'soups',
         count: '330 г',
-        image: 'assets/images/menu/mushroom_soup.jpg',
+        image: 'mushroom_soup.jpg',
         kind: 'veg'
     },
     {
@@ -24,7 +24,7 @@ const meals = [
         price: 275,
         category: 'soups',
         count: '350 г',
-        image: 'assets/images/menu/norwegian_soup.jpg',
+        image: 'norwegian_soup.jpg',
         kind: 'fish'
     },
     {
@@ -33,7 +33,7 @@ const meals = [
         price: 270,
         category: 'soups',
         count: '350 г',
-        image: 'assets/images/menu/borsh_soup.jpg',
+        image: 'borsh_soup.jpg',
         kind: 'meat'
     },
     {
@@ -42,7 +42,7 @@ const meals = [
         price: 280,
         category: 'soups',
         count: '320 г',
-        image: 'assets/images/menu/chicken_soup.jpg',
+        image: 'chicken_soup.jpg',
         kind: 'meat'
     },
     {
@@ -51,7 +51,7 @@ const meals = [
         price: 280,
         category: 'soups',
         count: '320 г',
-        image: 'assets/images/menu/fish_soup.jpg',
+        image: 'fish_soup.jpg',
         kind: 'fish'
     },
 
@@ -62,7 +62,7 @@ const meals = [
         price: 150,
         category: 'main_dishes',
         count: '400 г',
-        image: 'assets/images/menu/fried_potatoes_with_mushrooms.jpg',
+        image: 'fried_potatoes_with_mushrooms.jpg',
         kind: 'veg'
     },
     {
@@ -71,7 +71,7 @@ const meals = [
         price: 300,
         category: 'main_dishes',
         count: '320 г',
-        image: 'assets/images/menu/lasagna.jpg',
+        image: 'lasagna.jpg',
         kind: 'meat'
     },
     {
@@ -80,7 +80,7 @@ const meals = [
         price: 350,
         category: 'main_dishes',
         count: '350 г',
-        image: 'assets/images/menu/chicken_cutlets_and_mashed_potatoes.jpg',
+        image: 'chicken_cutlets_and_mashed_potatoes.jpg',
         kind: 'meat'
     },
     {
@@ -89,7 +89,7 @@ const meals = [
         price: 400,
         category: 'main_dishes',
         count: '350 г',
-        image: 'assets/images/menu/fish_cutlet.jpg',
+        image: 'fish_cutlet.jpg',
         kind: 'fish'
     },
     {
@@ -98,7 +98,7 @@ const meals = [
         price: 600,
         category: 'main_dishes',
         count: '350 г',
-        image: 'assets/images/menu/grilled_fish.jpg',
+        image: 'grilled_fish.jpg',
         kind: 'fish'
     },
     {
@@ -107,7 +107,7 @@ const meals = [
         price: 650,
         category: 'main_dishes',
         count: '200 г',
-        image: 'assets/images/menu/grilled_shrimp.jpg',
+        image: 'grilled_shrimp.jpg',
         kind: 'fish'
     },
     {
@@ -116,7 +116,7 @@ const meals = [
         price: 220,
         category: 'main_dishes',
         count: '350 г',
-        image: 'assets/images/menu/vegetable_stirfry.jpg',
+        image: 'vegetable_stirfry.jpg',
         kind: 'veg'
     },
 
@@ -127,7 +127,7 @@ const meals = [
         price: 250,
         category: 'salads',
         count: '250 г',
-        image: 'assets/images/menu/caesar_salad.jpg',
+        image: 'caesar_salad.jpg',
         kind: 'meat'
     },
     {
@@ -136,7 +136,7 @@ const meals = [
         price: 300,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/greek_salad.jpg',
+        image: 'greek_salad.jpg',
         kind: 'veg'
     },
     {
@@ -145,7 +145,7 @@ const meals = [
         price: 250,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/fries.jpg',
+        image: 'fries.jpg',
         kind: 'veg'
     },
     {
@@ -154,7 +154,7 @@ const meals = [
         price: 280,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/chicken_salad.jpg',
+        image: 'chicken_salad.jpg',
         kind: 'meat'
     },
     {
@@ -163,7 +163,7 @@ const meals = [
         price: 350,
         category: 'salads',
         count: '250 г',
-        image: 'assets/images/menu/smoked_salmon_salad.jpg',
+        image: 'smoked_salmon_salad.jpg',
         kind: 'fish'
     },
     {
@@ -172,7 +172,7 @@ const meals = [
         price: 220,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/beetroot_salad.jpg',
+        image: 'beetroot_salad.jpg',
         kind: 'veg'
     },
     {
@@ -181,7 +181,7 @@ const meals = [
         price: 300,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/carrot_salad.jpg',
+        image: 'carrot_salad.jpg',
         kind: 'veg'
     },
     {
@@ -190,7 +190,7 @@ const meals = [
         price: 180,
         category: 'salads',
         count: '300 г',
-        image: 'assets/images/menu/fruit_salad.jpg',
+        image: 'fruit_salad.jpg',
         kind: 'veg'
     },
 
@@ -201,7 +201,7 @@ const meals = [
         price: 100,
         category: 'drinks',
         count: '300 мл',
-        image: 'assets/images/menu/orange_juice.jpg',
+        image: 'orange_juice.jpg',
         kind: 'cold'
     },
     {
@@ -210,7 +210,7 @@ const meals = [
         price: 90,
         category: 'drinks',
         count: '300 мл',
-        image: 'assets/images/menu/apple_juice.jpg',
+        image: 'apple_juice.jpg',
         kind: 'cold'
     },
     {
@@ -219,7 +219,7 @@ const meals = [
         price: 100,
         category: 'drinks',
         count: '300 мл',
-        image: 'assets/images/menu/carrot_juice.jpg',
+        image: 'carrot_juice.jpg',
         kind: 'cold'
     },
     {
@@ -228,7 +228,7 @@ const meals = [
         price: 110,
         category: 'drinks',
         count: '300 мл',
-        image: 'assets/images/menu/grapefruit_juice.jpg',
+        image: 'grapefruit_juice.jpg',
         kind: 'cold'
     },
     {
@@ -237,7 +237,7 @@ const meals = [
         price: 120,
         category: 'drinks',
         count: '300 мл',
-        image: 'assets/images/menu/iced_tea.jpg',
+        image: 'iced_tea.jpg',
         kind: 'cold'
     },
     {
@@ -246,7 +246,7 @@ const meals = [
         price: 150,
         category: 'drinks',
         count: '200 мл',
-        image: 'assets/images/menu/coffee.jpg',
+        image: 'coffee.jpg',
         kind: 'hot'
     },
     {
@@ -255,7 +255,7 @@ const meals = [
         price: 90,
         category: 'drinks',
         count: '200 мл',
-        image: 'assets/images/menu/black_tea.jpg',
+        image: 'black_tea.jpg',
         kind: 'hot'
     },
     {
@@ -264,7 +264,7 @@ const meals = [
         price: 90,
         category: 'drinks',
         count: '200 мл',
-        image: 'assets/images/menu/green_tea.jpg',
+        image: 'green_tea.jpg',
         kind: 'hot'
     },
     {
@@ -273,7 +273,7 @@ const meals = [
         price: 130,
         category: 'drinks',
         count: '200 мл',
-        image: 'assets/images/menu/hot_choclate.jpg',
+        image: 'hot_choclate.jpg',
         kind: 'hot'
     },
 
@@ -284,7 +284,7 @@ const meals = [
         price: 230,
         category: 'desserts',
         count: '220 г',
-        image: 'assets/images/menu/mid_chocolate_cake.jpg',
+        image: 'mid_chocolate_cake.jpg',
         kind: 'medium'
     },
     {
@@ -293,7 +293,7 @@ const meals = [
         price: 220,
         category: 'desserts',
         count: '120 г',
-        image: 'assets/images/menu/cheese_cake.jpg',
+        image: 'cheese_cake.jpg',
         kind: 'small'
     },
     {
@@ -302,7 +302,7 @@ const meals = [
         price: 250,
         category: 'desserts',
         count: '220 г',
-        image: 'assets/images/menu/tiramisu.jpg',
+        image: 'tiramisu.jpg',
         kind: 'medium'
     },
     {
@@ -311,7 +311,7 @@ const meals = [
         price: 170,
         category: 'desserts',
         count: '120 г',
-        image: 'assets/images/menu/panna_cotta.jpg',
+        image: 'panna_cotta.jpg',
         kind: 'small'
     },
     {
@@ -320,7 +320,7 @@ const meals = [
         price: 100,
         category: 'desserts',
         count: '80 г',
-        image: 'assets/images/menu/macaron.jpg',
+        image: 'macaron.jpg',
         kind: 'small'
     },
     {
@@ -329,7 +329,7 @@ const meals = [
         price: 550,
         category: 'desserts',
         count: '400 г',
-        image: 'assets/images/menu/big_chocolate_cake.jpg',
+        image: 'big_chocolate_cake.jpg',
         kind: 'large'
     },
 ];
